@@ -20,7 +20,7 @@ public class MemberController {
     @GetMapping("/member/list")
     public String memberList(Model model){
         model.addAttribute("members", members);
-        return "/membe-list";
+        return "/member-list";
     }
 
 }
