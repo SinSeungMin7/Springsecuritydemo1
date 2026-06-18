@@ -1,0 +1,14 @@
+spring:
+  application:
+    name: demo
+  security:
+    user:
+      name: admin
+      password: {noop}password
+      roles: USER, ADMIN
+
+logging:
+  level:
+    org:
+      springframework:
+        security=DEBUG:
